@@ -1,0 +1,30 @@
+#include<stdio.h>
+int main()
+{
+	int num1,num2,num3;
+	printf("give the value of num1");
+	scanf("%d", & num1);
+	printf("give the value of num2");
+	scanf("%d", & num2);
+	printf("give the value of num3");
+	scanf("%d", & num3);
+	if(num2>num3)
+	{
+		printf("\nnum1 is largest");
+	}
+	else
+	{
+		printf("\nnum3 is largest");
+	}
+	
+	if(num2>num3)
+	
+	{
+		printf("\nnum2 is largest");
+	}
+	else
+	{
+		printf("\nnum3 is largest");
+	}
+	return 0;
+}
