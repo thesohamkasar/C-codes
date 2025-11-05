@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+	int numbers;
+	printf("give the numbers positive and negative");
+	scanf("%d", & numbers);
+	if(numbers>=50)
+	{
+		printf("number is positive");
+	}
+	else
+	{
+		printf("number is negative");
+	}
+	return 0;
+}
