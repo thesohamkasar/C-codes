@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+	int soham,saksham,rudra,a;
+	printf("give the marksd of soham");
+	scanf("%d", & soham);
+	printf("give the marksd of saksham");
+	scanf("%d", & saksham);
+	printf("give the marksd of rudra");
+	scanf("%d", & rudra);
+	a=soham+saksham+rudra;
+	printf("result =%d",a);
+	return 0;
+}
