@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+	int boxa,boxb,boxc,e;
+	printf("give the value of boxa");
+	scanf("%d", & boxa);
+	printf("give the value of boxb");
+	scanf("%d", & boxb);
+	printf("give the value of boxc");
+	scanf("%d", & boxc);
+	e=boxa+boxb+boxc;
+	printf("result =%d",e);
+	return 0;
+}
